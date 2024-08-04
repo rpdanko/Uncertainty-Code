@@ -1,0 +1,5 @@
+You won't see this R output, but it will run. 
+Now foo is bar and today is February 17, 2024.
+How about generating a template from a template?
+<% foo <- 'fee fi fo fum' %>
+foo is still bar.

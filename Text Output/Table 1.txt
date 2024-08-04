@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\label{tab1}
+\begin{center}
+\begin{tabular}{ccccccc}
+\hline\hline
+$n$         &1000 & 1000 & 1000 & 1000 & 1000 & 10000        \\
+$\rho$         &.5 & .5 & .5 & .5 & .5  &.5       \\
+$k$         &1 & 2 & 3& 4 & 10   & 3     \\
+$\delta$ & 1 & 1 & 1 & 1 & 1 & 1\\
+$(\bar{V}_{\text{EHW}}/N)^{1/2}$         &0.232 & 0.276  & 0.311   & 0.385   & 0.553  & 0.099 \\
+$(\bar{V}_{\text{Caus}}/N)^{1/2} $    & 0.222  & 0.26       & 0.294  & 0.362   & 0.52  &  0.094   \\
+$\frac{(\bar{V}_{\text{EHW}}/N)^{1/2}}{(\bar{V}_{\text{Caus}}/N)^{1/2}}$  & 0.957 & 0.941&0.947 & 0.941& 0.94& 0.944\\
+  CR using $\bar{V}_{\text{EHW}}$  & 0.89   & 0.945    & 0.991 &0.944&0.966  &  0.986        \\
+CR using $\bar{V}_{\text{Caus}}$ & 0.868   & 0.928    & 0.987 &0.923&0.954  &  0.978      \\
+$\hat{\theta}_{OLS}$ CR using $\bar{V}_{\text{EHW}}$      & 0.765   & 0.805    & 0.418 &0.853&0.656  &  0       \\
+$\hat{\theta}_{OLS}$ CR using $\bar{V}_{\text{Caus}}$ & 0.705   & 0.707    & 0.315 &0.78&0.544  &  0  \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}

@@ -1,0 +1,41 @@
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 2, psi = c(2, 2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 3, psi = c(2,2,2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 4, psi = c(2,2,2,2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 10, psi = c(2,2,2,2,2,2,2,2,2,2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =.01)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =.1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =.25)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =.5)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =.75)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(0),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(1),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(5),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(10),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(100),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.1, k = 1, psi = c(2),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.25, k = 1, psi = c(100),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.5, k = 1, psi = c(100),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=.75, k = 1, psi = c(100),iter = 1000, nu = 1, delta =1)
+
+uncertaintysim(1000, rho=1, k = 1, psi = c(100),iter = 1000, nu = 1, delta =1)

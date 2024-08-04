@@ -1,0 +1,21 @@
+\begin{table}[!htbp]
+\label{tab1}
+\begin{center}
+\begin{tabular}{ccccccc}
+\hline\hline
+$n$         &1000 & 1000 & 1000 & 1000 & 1000 & 10000        \\
+$\rho$         &.5 & .5 & .5 & .5 & .5  &.5       \\
+$k$         &1 & 2 & 3& 4 & 10   & 3     \\
+$\delta$ & 1 & 1 & 1 & 1 & 1 & 1\\
+$(\bar{V}_{\text{EHW}}/N)^{1/2}$         &<%= round(simput[1], digits = 3) %> & <%= round(simput[15], digits = 3) %>  & <%= round(simput[29], digits = 3) %>   & <%= round(simput[43], digits = 3) %>   & <%= round(simput[57], digits = 3) %>  & <%= round(simput[71], digits = 3) %> \\
+$(\bar{V}_{\text{Caus}}/N)^{1/2} $    & <%= round(simput[10], digits = 3) %>  & <%= round(simput[24], digits = 3) %>       & <%= round(simput[38], digits = 3) %>  & <%= round(simput[52], digits = 3) %>   & <%= round(simput[66], digits = 3) %>  &  <%= round(simput[80], digits = 3) %>   \\
+$\frac{(\bar{V}_{\text{EHW}}/N)^{1/2}}{(\bar{V}_{\text{Caus}}/N)^{1/2}}$  & <%= round(simput[9], digits = 3) %> & <%= round(simput[23], digits = 3) %>&<%= round(simput[37], digits = 3) %> & <%= round(simput[51], digits = 3) %>& <%= round(simput[65], digits = 3) %>& <%= round(simput[79], digits = 3) %>\\
+  CR using $\bar{V}_{\text{EHW}}$  & <%= round(simput[12], digits = 3) %>   & <%= round(simput[26], digits = 3) %>    & <%= round(simput[40], digits = 3) %> &<%= round(simput[54], digits = 3) %>&<%= round(simput[68], digits = 3) %>  &  <%= round(simput[82], digits = 3) %>        \\
+CR using $\bar{V}_{\text{Caus}}$ & <%= round(simput[11], digits = 3) %>   & <%= round(simput[25], digits = 3) %>    & <%= round(simput[39], digits = 3) %> &<%= round(simput[53], digits = 3) %>&<%= round(simput[67], digits = 3) %>  &  <%= round(simput[81], digits = 3) %>      \\
+$\hat{\theta}_{OLS}$ CR using $\bar{V}_{\text{EHW}}$      & <%= round(simput[14], digits = 3) %>   & <%= round(simput[28], digits = 3) %>    & <%= round(simput[42], digits = 3) %> &<%= round(simput[56], digits = 3) %>&<%= round(simput[70], digits = 3) %>  &  <%= round(simput[84], digits = 3) %>       \\
+$\hat{\theta}_{OLS}$ CR using $\bar{V}_{\text{Caus}}$ & <%= round(simput[13], digits = 3) %>   & <%= round(simput[27], digits = 3) %>    & <%= round(simput[41], digits = 3) %> &<%= round(simput[55], digits = 3) %>&<%= round(simput[69], digits = 3) %>  &  <%= round(simput[83], digits = 3) %>  \\
+
+\hline
+\end{tabular}
+\end{center}
+\end{table}
